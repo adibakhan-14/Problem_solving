@@ -1,0 +1,47 @@
+create video element and include our interface code
+if videoWorks is equal to 1
+then hide the default video controls
+initialize video control buttons
+function togglePlay (No arguments) {
+	if video is paused or video has ended
+		then play video
+	else
+		pause video
+}
+
+function updatePlayButton (No arguments) {
+	update the playback icon and tooltip to play or pause depending on the playback state
+}
+
+function formatTime (No arguments) {
+	takes a time length in seconds and returns the time in minutes and seconds
+}
+
+function rewindPlayButton (No arguments) {
+	rewinds the video for 5 seconds
+}
+
+function forwardPlayButton (No arguments) {
+	forwards the video for 5 seconds
+}
+
+function initializeVideo (No arguments) {
+	sets the video duration, and maximum value of the progress bar
+}
+
+function updateTimeElapsed (No arguments) {
+	shows how far through the video the current playback is
+}
+
+function updateProgress (No arguments) {
+	shows how far through the video the current playback is by updating the progress bar
+}
+
+function updateSeekTooltip (Argument one) {
+uses the position of the mouse on the progress bar to roughly work out what point in the video the user will skip to if the progress bar is clicked
+}
+
+function updateSeekTooltip (Argument one) {
+	jumps to a different point in the video when
+the progress bar is clicked
+}
